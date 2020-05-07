@@ -16,7 +16,7 @@ In particular, the **goals** of this project are the following:
 
 The outcome of this project was a data fusion algorithm for its usage with RADAR and LIDAR sensors based in the Extended Kalman Filter. With the provided testing data, it managed to reach RMSEs of 0.0973, 0.0855, 0.4513 and 0.4399 for the target's X and Y positions and velocities (px, py, vx, vy). This can be visualized in the following **YouTube demo**, where the LIDAR measurements are the red circles, the RADAR ones are the blue ones (with an arrow pointing in the direction of the observed angle), and the pose estimations are the green triangles. The simulation is tracking the blue car using RADAR and LIDAR sensors located on the origin of the coordinates system where the car starts its trajectory:
 
-[![Demo video](https://img.youtube.com/vi/Tm7d8E3J3WI/0.jpg)](https://www.youtube.com/watch?v=Tm7d8E3J3WI)
+[![Demo video](pm05.gif)](https://www.youtube.com/watch?v=Tm7d8E3J3WI)
 
 
 This work will be followed by a brief documentation/overview contained in this file. This project is a completed version of the sample project template provided by the Self-Driving Car Engineer Udemy's nanodegree. The un-completed original version is [this repository](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project).
